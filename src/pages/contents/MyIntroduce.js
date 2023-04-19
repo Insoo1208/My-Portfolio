@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 
+import profile from "../../images/profile.png";
+
 const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
@@ -36,6 +38,12 @@ const Profile = styled.div`
     align-items: center;
     row-gap: 25px;
   }
+
+  img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
 `;
 
 const Contents = styled.div`
@@ -45,9 +53,9 @@ const Contents = styled.div`
 
 function MyIntroduce() {
   return (
-    <Wrapper>
+    <Wrapper id='introduction'>
       <Profile>
-        <img src='/' alt='Profile-Img'/>
+        <img src={profile} alt='Profile-Img'/>
         <div className='text-area'>
           <h1>프론트엔드 개발자</h1>
           <h2>전인수 (Insoo Jeon)</h2>

@@ -32,7 +32,7 @@ const Wrapper = styled.div`
 
 function Skills() {
   return (
-    <Wrapper>
+    <Wrapper id='skills'>
       <h1>
         Skills
       </h1>

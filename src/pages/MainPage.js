@@ -18,7 +18,7 @@ const Inner = styled.div`
 function MainPage() {
 
   return (
-    <Wrapper>
+    <Wrapper id="home">
       <Header />
       <Inner>
         <MyIntroduce />

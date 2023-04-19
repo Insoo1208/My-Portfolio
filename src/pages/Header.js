@@ -1,3 +1,4 @@
+import { Link } from "react-scroll";
 import styled from "styled-components";
 
 const Wrapper = styled.div`
@@ -15,6 +16,10 @@ const Wrapper = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+
+    li {
+      cursor: pointer;
+    }
   }
 `;
 
@@ -22,10 +27,10 @@ function Header() {
   return (
     <Wrapper>
       <ul>
-        <li>1</li>
-        <li>2</li>
-        <li>3</li>
-        <li>4</li>
+        <li><Link to="home" spy={true} smooth={true}>Home</Link></li>
+        <li><Link to="introduction" spy={true} smooth={true} offset={-70}>Introduction</Link></li>
+        <li><Link to="skills" spy={true} smooth={true} offset={-70}>Skills</Link></li>
+        <li><Link to="project" spy={true} smooth={true} offset={-70}>Project</Link></li>
       </ul>
     </Wrapper>
   );

@@ -49,6 +49,17 @@ const GlobalStyle = createGlobalStyle`
   * {
     box-sizing: inherit;
   }
+
+  a {
+    color: ${props => props.theme.gray800};
+    text-decoration: none;
+  }
+
+  .text-ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
 `;
 
 function App() {
