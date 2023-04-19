@@ -15,10 +15,6 @@ const theme = {
   gray700: '#555',
   gray800: '#333',
   gray900: '#111',
-
-  main: '#eaa8b3',
-  mainDark: '#dd869c',
-  mainLight: '#F7CAC9'
 };
 
 const GlobalStyle = createGlobalStyle`

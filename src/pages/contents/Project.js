@@ -280,7 +280,7 @@ function Project() {
                     </li>
                     <li>
                       <div><GiCheckMark />Page URL</div>
-                      <div></div>
+                      <div><a href='https://insoo-portfolio.netlify.app' target='_blank'><FiLink />insoo-portfolio.netlify.app</a></div>
                     </li>
                     <li>
                       <div><GiCheckMark />Skills</div>

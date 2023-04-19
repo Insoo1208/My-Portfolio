@@ -57,8 +57,8 @@ function MyIntroduce() {
       <Profile>
         <img src={profile} alt='Profile-Img'/>
         <div className='text-area'>
-          <h1>프론트엔드 개발자</h1>
-          <h2>전인수 (Insoo Jeon)</h2>
+          <h1>Junior 프론트엔드 개발자(신입)</h1>
+          <h2>전인수 (Jeon Insoo)</h2>
         </div>
       </Profile>
 

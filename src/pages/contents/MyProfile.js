@@ -50,7 +50,7 @@ function MyProfile() {
       <DetailWrapper>
         <li>
           <h2>이름</h2>
-          <h3>전인수</h3>
+          <h3>전인수 (Jeon Insoo)</h3>
         </li>
 
         <li>
